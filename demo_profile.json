@@ -1,0 +1,71 @@
+{
+  "beliefs": {
+    "prefers_morning_interviews": {
+      "claim": "Prefers interviews scheduled in the morning",
+      "confidence": 0.8,
+      "evidence": 2,
+      "tags": [
+        "scheduling",
+        "interview"
+      ],
+      "updated": "2026-09-18T20:52:48+00:00"
+    },
+    "deprioritize_staffing_vendors": {
+      "claim": "Declines staffing-vendor pitches; deprioritize them",
+      "confidence": 0.65,
+      "evidence": 1,
+      "tags": [
+        "vendor",
+        "triage"
+      ],
+      "updated": "2026-09-18T20:52:48+00:00"
+    },
+    "takehome_active": {
+      "claim": "Active take-home: Meridian due 2026-09-22",
+      "confidence": 0.8,
+      "evidence": 2,
+      "tags": [
+        "takehome",
+        "deadline"
+      ],
+      "updated": "2026-09-18T20:53:01+00:00"
+    }
+  },
+  "events": [
+    {
+      "ts": "2026-09-18T20:52:48+00:00",
+      "type": "invite_accepted",
+      "facts": {
+        "start": "09:00"
+      }
+    },
+    {
+      "ts": "2026-09-18T20:52:48+00:00",
+      "type": "invite_accepted",
+      "facts": {
+        "start": "10:30"
+      }
+    },
+    {
+      "ts": "2026-09-18T20:52:48+00:00",
+      "type": "vendor_pitch_declined",
+      "facts": {}
+    },
+    {
+      "ts": "2026-09-18T20:52:48+00:00",
+      "type": "takehome_received",
+      "facts": {
+        "company": "Meridian",
+        "due": "2026-09-22"
+      }
+    },
+    {
+      "ts": "2026-09-18T20:53:01+00:00",
+      "type": "takehome_received",
+      "facts": {
+        "company": "Meridian",
+        "due": "2026-09-22"
+      }
+    }
+  ]
+}
