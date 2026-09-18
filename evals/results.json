@@ -1,0 +1,90 @@
+{
+  "passed": 14,
+  "total": 14,
+  "rows": [
+    {
+      "scenario": "s1_interview",
+      "passed": true,
+      "failed_checks": [],
+      "note": "invite -> draft + hold, p0"
+    },
+    {
+      "scenario": "s2_takehome",
+      "passed": true,
+      "failed_checks": [],
+      "note": "take-home -> reminder, deadline tracked"
+    },
+    {
+      "scenario": "s3_vendor",
+      "passed": true,
+      "failed_checks": [],
+      "note": "vendor pitch -> log only, never draft"
+    },
+    {
+      "scenario": "s4_bounce",
+      "passed": true,
+      "failed_checks": [],
+      "note": "bounce -> suppress, mark undeliverable"
+    },
+    {
+      "scenario": "s5_duplicate",
+      "passed": true,
+      "failed_checks": [],
+      "note": "duplicate -> suppress, no double-send"
+    },
+    {
+      "scenario": "s6_newsletter",
+      "passed": true,
+      "failed_checks": [],
+      "note": "newsletter -> noise"
+    },
+    {
+      "scenario": "s7_offer",
+      "passed": true,
+      "failed_checks": [],
+      "note": "offer -> flag human, NOTHING drafted"
+    },
+    {
+      "scenario": "s8_conflict",
+      "passed": true,
+      "failed_checks": [],
+      "note": "slot conflict -> extra flag_human"
+    },
+    {
+      "scenario": "s9_followup",
+      "passed": true,
+      "failed_checks": [],
+      "note": "follow-up draft obeys voice rules"
+    },
+    {
+      "scenario": "s10_deadline",
+      "passed": true,
+      "failed_checks": [],
+      "note": "24h deadline -> p0 flag"
+    },
+    {
+      "scenario": "s11_posting",
+      "passed": true,
+      "failed_checks": [],
+      "note": "eval-first posting -> surfaced"
+    },
+    {
+      "scenario": "s12_rejection",
+      "passed": true,
+      "failed_checks": [],
+      "note": "rejection -> log, no reply"
+    },
+    {
+      "scenario": "c1_morning_preference",
+      "passed": true,
+      "failed_checks": [],
+      "note": "{'belief': {'claim': 'Prefers interviews scheduled in the morning', 'confidence': 0.8, 'evidence': 2, 'tags': ['scheduling', 'interview'], 'updated': '2026-09-1"
+    },
+    {
+      "scenario": "c2_vendor_deprioritize",
+      "passed": true,
+      "failed_checks": [],
+      "note": "{'summary': 'Vendor pitch from Raj: Belief: staffing-vendor pitches are deprioritized (declined before); logging only.'}"
+    }
+  ]
+}
